@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = 'http://localhost:8080/api/projects';
+const API = 'https://portfolio-backend-uvhm.onrender.com';
 
 export const getAll = () => axios.get(API);
 
